@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/* 
+             Alunno:francesco di girolamo   
+             Classe:1in1
+               Data:
+                   
+*/
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+body {
+    background-color: #C7CF8B;
+    background-image: url(..img\Sfondo.jpg);
+    font-family : Questrial, "Trebuchet MS", Helvetica, Arial, sans-serif; 
+    font-size: 25px;
+    line-height: 1.25;
+    padding: 0;
+    margin: 0;
+}	
+a {
+    text-decoration: none;
+    color: #961B25;
+}
+a:hover {
+    color: #6F92A7;
+}
+header {
+    background-color: #6BBAA2;
+    width: auto;
+    padding-top: 15px;
+    display: flex;
+}
+.titolo {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float:left;
+    font-size: 34px;
+    color: #364B44;
+}
+nav {
+margin-top: auto;
+margin-bottom: auto;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+    display: inline;  
+    margin: 5px; 
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 24px;
+    font-weight: normal;
+}
+li a:hover {
+    text-shadow: 1px 1px 1px #2C0306;
+    background-color: #53393a;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 2px #2C0306;
+    color: #F6F6EE;
+}
+li.selezione{
+    background-color: #474554;
+    border-radius: 10px;
+}
+article {	
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px 10px 5px 10px;
+    text-align: center;
+    height: 100%;
+}
+footer {
+    clear: both;
+    display:block;
+    margin: 30px 15px 30px 15px;
+    border-top: solid red 1px;
+    padding-top: 10px;
+}
+footer p {
+    text-align: center;
+    color: royalblue;
+    line-height: 1.0;
+    padding: 5px;
+    margin: 0;
+}
+.copertina{
+    height: auto;
+    padding:5px;
+    max-width: 200px;
+}
+.immagine{
+    width: 300px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 5px 5px rgb(0, 0, 0.2);
+    float: right;
+}
+.scheda{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    text-align: left;
+}
+.contenuto{
+    margin: 10px;
+    font-size: 14px;
+}
